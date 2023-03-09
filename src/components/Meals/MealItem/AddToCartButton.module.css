@@ -1,0 +1,36 @@
+.add-button {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: flex-end;
+  gap: 0.4rem;
+}
+
+.add-button-input {
+  display: flex;
+  gap: 0.5em;
+  font-weight: bolder;
+  align-items: center;
+}
+
+.add-button-input input {
+  width: 3rem;
+  text-align: center;
+  font-weight: bold;
+  font-size: 0.8em;
+  padding: 0.2rem;
+  border: 1px solid rgba(179, 178, 178, 0.733);
+  border-radius: 7px;
+}
+
+.add-button button {
+  border: none;
+  padding: 0.5rem;
+  width: 80%;
+  font-size: 0.8em;
+  color: #fff;
+  font-weight: bold;
+  background-color: #127e42;
+  border-radius: 20px;
+  cursor: pointer;
+}
