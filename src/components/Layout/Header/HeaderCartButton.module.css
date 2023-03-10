@@ -1,4 +1,4 @@
-.cart {
+.button {
   display: flex;
   background-color: rgb(3, 66, 22);
   align-items: flex-end;
@@ -12,7 +12,7 @@
   font-weight: bold;
 }
 
-.cart:hover {
+.button:hover {
   background-color: rgb(2, 88, 38);
 }
 
@@ -34,7 +34,7 @@
     transform: scale(1);
   }
   50% {
-    transform: scale(1.05);
+    transform: scale(1.1);
   }
   100% {
     transform: scale(1);
