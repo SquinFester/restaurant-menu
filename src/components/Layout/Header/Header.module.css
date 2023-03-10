@@ -17,11 +17,13 @@
 .header h1 span {
   color: rgb(206, 37, 37);
   font-weight: bolder;
-  position: relative;
-  z-index: 100;
 }
 
 @media screen and (min-width: 768px) {
+  .header {
+    padding: 1rem 15vw;
+  }
+
   .header h1 {
     font-size: 2em;
   }

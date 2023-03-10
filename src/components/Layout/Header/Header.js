@@ -5,14 +5,14 @@ import classes from "./Header.module.css";
 import HeaderCartButton from "./HeaderCartButton";
 import HeaderMain from "./HeaderMain";
 
-const Header = () => {
+const Header = ({ onShowCartOn }) => {
   return (
     <Fragment>
       <header className={classes.header}>
         <h1>
           ReactSalad<span>Store</span>
         </h1>
-        <HeaderCartButton />
+        <HeaderCartButton onClick={onShowCartOn} />
       </header>
       <HeaderMain />
     </Fragment>

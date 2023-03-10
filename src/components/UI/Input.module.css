@@ -1,0 +1,26 @@
+.input {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  font-weight: bolder;
+  align-items: flex-end;
+  font-size: 0.9em;
+}
+
+.input input {
+  width: 3rem;
+  text-align: center;
+  font-weight: bold;
+  font-size: 0.8em;
+  padding: 0.2rem;
+  border: 1px solid rgba(179, 178, 178, 0.733);
+  border-radius: 7px;
+}
+
+@media screen and (min-width: 768px) {
+  .input {
+    font-size: 1em;
+    flex-direction: row;
+    align-items: center;
+  }
+}
