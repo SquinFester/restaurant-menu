@@ -8,6 +8,11 @@
   list-style: none;
 }
 
+.MealsLoading {
+  text-align: center;
+  margin-top: 2rem;
+}
+
 @keyframes slide-up {
   0% {
     opacity: 0;

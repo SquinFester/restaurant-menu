@@ -6,6 +6,7 @@ const Input = forwardRef((props, ref) => {
     <div className={`${classes.input} ${props.className}`}>
       <label htmlFor={props.input.id}>{props.label}</label>
       <input ref={ref} {...props.input} />
+      {!props.inputIsInvalid && <span>{props.input.errormsg}</span>}
     </div>
   );
 });

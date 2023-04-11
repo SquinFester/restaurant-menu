@@ -1,3 +1,18 @@
+.orders {
+  max-height: 18rem;
+  overflow-y: scroll;
+}
+
+.orders::-webkit-scrollbar {
+  width: 20px;
+}
+
+.orders::-webkit-scrollbar-thumb {
+  background-color: rgba(150, 149, 149, 0.336);
+  border-radius: 1rem;
+  border: solid 5px white;
+}
+
 .orders ul {
   list-style: none;
 }
@@ -40,6 +55,13 @@
 .btn-order {
   background-color: #127e42;
   color: #fff;
+}
+
+.sent {
+  font-size: 1.2em;
+  font-weight: bold;
+  text-align: center;
+  padding-block: 1rem;
 }
 
 @media screen and (min-width: 768px) {
