@@ -5,6 +5,7 @@ import classes from "./AvailableMeals.module.css";
 
 import MealItem from "./MealItem/MealItem";
 import Card from "../UI/Card";
+import api from "./MealItem/api-key";
 
 const AvailableMeals = () => {
   const [meals, setMeals] = useState([]);
@@ -22,7 +23,7 @@ const AvailableMeals = () => {
 
     fetchRequest(
       {
-        url: "https://react-sw-ad600-default-rtdb.europe-west1.firebasedatabase.app/meals.json",
+        url: api,
       },
 
       dataHandler
